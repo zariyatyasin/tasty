@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/tasty/static/css/main.b830bf37.css",
+    "main.js": "/tasty/static/js/main.ffc416c3.js",
+    "static/js/787.1a743f78.chunk.js": "/tasty/static/js/787.1a743f78.chunk.js",
+    "static/media/family.jpg": "/tasty/static/media/family.20e3105cd99c440bed67.jpg",
+    "static/media/bg2.png": "/tasty/static/media/bg2.741dfe2bc8c6b7e0772b.png",
+    "static/media/p11.jpg": "/tasty/static/media/p11.fb15d551c835e1d88dba.jpg",
+    "index.html": "/tasty/index.html",
+    "main.b830bf37.css.map": "/tasty/static/css/main.b830bf37.css.map",
+    "main.ffc416c3.js.map": "/tasty/static/js/main.ffc416c3.js.map",
+    "787.1a743f78.chunk.js.map": "/tasty/static/js/787.1a743f78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b830bf37.css",
+    "static/js/main.ffc416c3.js"
+  ]
+}
