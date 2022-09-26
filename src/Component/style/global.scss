@@ -1,0 +1,61 @@
+@import "./mix";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "poppins", sans-serif;
+
+  font-size: 1.5rem;
+  line-height: 1.6;
+
+  overflow-x: hidden;
+  position: relative;
+}
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+// img {
+//   max-width: 100%;
+//   height: auto;
+// }
+.flex {
+  display: flex;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  padding-left: 50px;
+  padding-right: 50px;
+
+  // @media screen and(max-width:970px) {
+  //   margin: 0 2rem;
+  // }
+  @media screen and(max-width:970px) {
+    margin: 0 2rem;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

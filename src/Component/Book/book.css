@@ -1,0 +1,152 @@
+.booking {
+  padding-top: 3rem;
+  padding-bottom: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+@media screen and (max-width: 780px) {
+  .booking {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.booking_left {
+  position: relative;
+}
+
+.booking_left_box {
+  background: linear-gradient(24deg, rgba(4, 215, 162, 0.486) 4%, rgba(4, 215, 162, 0.5) 100%), url(family.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 471px;
+  height: 469px;
+  border-radius: 120px 120px 0px 120px;
+}
+
+@media screen and (max-width: 920px) {
+  .booking_left_box {
+    width: 371px;
+    height: 369px;
+    border-radius: 80px 80px 0px 80px;
+  }
+}
+
+.booking_box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 204px;
+  height: 279px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #1d214e;
+  border-radius: 60px 60px 0px 60px;
+}
+
+@media screen and (max-width: 920px) {
+  .booking_box {
+    width: 170px;
+    height: 250px;
+    border-radius: 40px 40px 0px 40px;
+  }
+}
+
+.booking_off {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.booking_off:not(:last-child) {
+  border-bottom: 1px solid #04d7a2;
+}
+
+.booking_off:not(:first-child) {
+  padding: 10px;
+}
+
+.booking_off p {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.booking_svg {
+  position: absolute;
+  height: 150px;
+  top: 40px;
+  right: 20px;
+}
+
+.booking_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 390px;
+  padding-left: 70px;
+}
+
+@media screen and (max-width: 920px) {
+  .booking_right {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .booking_right {
+    padding-top: 70px;
+    padding-left: 0px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+}
+
+.booking_right h1 {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.booking_pri {
+  font-size: 25px;
+  color: #04d7a2;
+}
+
+.booking_right > *:not(:last-child) {
+  padding-bottom: 60px;
+}
+/*# sourceMappingURL=book.css.map */

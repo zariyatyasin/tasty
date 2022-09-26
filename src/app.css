@@ -1,0 +1,12 @@
+.app {
+  height: 100vh;
+}
+
+.app .section {
+  width: 100%;
+  height: calc(100vh-70px);
+  z-index: 2;
+  position: relative;
+  top: 70px;
+}
+/*# sourceMappingURL=app.css.map */

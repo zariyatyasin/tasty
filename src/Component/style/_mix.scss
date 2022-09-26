@@ -1,0 +1,34 @@
+$sec: #1d214e;
+$main: #04d7a2;
+$breakpoint: (
+  "sm": 480px,
+  "md": 720px,
+  "lg": 960px,
+  "xl": 1200px,
+);
+
+// @mixin sm {
+//   @media screen and (max-width: map-get($breakpoint, "sm" )) {
+//     @content;
+//   }
+// }
+// @mixin md {
+//   @media screen and (max-width: map-get($breakpoint, "md" )) {
+//     @content;
+//   }
+// }
+// @mixin lg {
+//   @media screen and (max-width: map-get($breakpoint, "lg" )) {
+//     @content;
+//   }
+// }
+// @mixin xl {
+//   @media screen and (max-width: map-get($breakpoint, "xl" )) {
+//     @content;
+//   }
+// }
+@mixin breakpoint($size) {
+  @media (max-width: map-get($breakpoint , $size )) {
+    @content;
+  }
+}
